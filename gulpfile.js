@@ -16,7 +16,7 @@ var banner = ['/*!\n',
   ''
 ].join('');
 
-// Compiles SCSS files fromCASDCWDS /scss into /css
+// Compiles SCSS files fromCASDCWDS /scss icwento /css
 gulp.task('sass', function() {
   return gulp.src('scss/creative.scss')
     .pipe(sass())
